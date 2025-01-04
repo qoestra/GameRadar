@@ -1,0 +1,57 @@
+/* Genel sayfa düzeni */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Başlık fontu ve rengini belirleyelim */
+h1, h2, p {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Minecraft başlığı */
+p:first-of-type {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    font-family: 'Cursive', sans-serif;
+}
+
+/* Resimlerin düzeni */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Paragrafların etrafındaki kutu */
+p {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Yazı fontunu değiştirme ve başlık renkleri */
+font {
+    color: #333;
+    font-size: 36px;
+    font-family: 'Cursive', sans-serif;
+}
+
+/* Genel içerik kutusunu merkezle */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
